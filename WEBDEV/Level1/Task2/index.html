@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Dewangan Porfolio Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/11a55a6c46.js" crossorigin="anonymous"></script> 
+  
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./img/logo2.jpg" alt="logo_Image" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">AboutMe</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">ContectMe</a></li>
+                    <i class="fas fa-light fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+           
+            <div class="main">
+            <div class="header-text">
+                <h1>Hi, I'm <br><span>Vikas</span> Dewangan<br>From India </h1>
+                <h3 style="font-weight: bold">A Web Developer</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/its_vikas03/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vikasdewangan001/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/VikasDewan88668" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/vikasdewan"><i class="fa-brands fa-github"></i></a>
+                       <a 
+                       href="./img/ResumeUpdated_removed.pdf" 
+                       download="ResumeVikasDewangan" 
+                       class="main-resume-btn">Download CVV</a>
+                
+                </div>
+            </div>
+            
+            <div class="header-img">
+                <img src="./img/selfimg2.png" alt="" class="main-img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<img src="./img/selfimg2.png" alt="" class="main-img-2">
+
+ <!-- About Section    -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="./img/aboutmain_img.jpg" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! I'm a <b style="color: rgb(214, 15, 15);">2nd</b> year student pursuing B.Tech in Computer Science at BIT Durg. My main focus is mastering the <b style="color: rgb(214, 15, 15);">MERN Stack</b> to become a skilled <b style="color: rgb(214, 15, 15);">Full Stack Developer.</b> Currently, I'm diving into <b style="color: rgb(214, 15, 15);">MongoDB</b> to enhance my skills. With a strong grasp of HTML, CSS, JavaScript, <b style="color: rgb(214, 15, 15);">Node.js, Express.js, MySQL, SQL</b style="color: red;">, and experience in <b style="color: rgb(214, 15, 15);">Bootstrap and Tailwind CSS</b>, I'm excited to explore new solutions and make contributions in the tech industry.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('achive&Exp')">Accomplishments<p>
+                        <p class="tab-links" onclick="opentab('education')">Eduction</p>
+                    </div>
+                    <div  class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>HTML | CSS | JavaScript</li>
+                            <li><span>Backend</span><br>NodeJs | ExpressJs</li>
+                            <li><span>DataBase Management</span><br>MongoDB | MySQL | SQL</li>
+                            <li><span>CSS FrameWorks</span><br>BootStrap | Tailwind CSS</li>
+                        </ul>
+                    </div>
+                    <div  class="tab-contents" id="achive&Exp">
+                        <ul>
+                            <li><span>Secondary Standard</span><br>got the highest score of 94.4% in my 12th standard examination at school among 120 students.</li>
+                            <li><span>HultPrize 2k24</span><br>Runner-ups of The Hult Prize 2024 competition 
+                                among a field of 12+ teams</li>
+                            <li><span>Experience</span><br>Associate Event Manager of Hult Prize 2k24</li>
+                            <li><span>Maths Olmpiad(School Level- 9th)</span><br> received the silver medal
+                            </li>
+                        </ul>
+                    </div>
+                    <div  class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2k20</span><br>Passed 10th Class - 78.6%</li>
+                            <li><span>2k22</span><br>Passed 12th Class - 94.4%</li>
+                            <li><span>2k23</span><br>B.tech CSE (1st & 2nd Sem) - 9.1 CGPA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------Services-------- -->
+
+<div id="services">
+
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web <br> Design</h2>
+                <p>Can Design a website for you with full functionality and Responsivness</p>
+                <a href="">learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-share-nodes"></i>
+                <h2>Backend <br> Development</h2>
+                <p>I can make a backend for your Website with Database ,which can handle all your request from client side and give him/her a sutaible response</p>
+                <a href="">learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                <h2>UI/UX <br> Design</h2>
+                <p> Currently I am in Beginner Stage of UI/UX Design ,but i can assure you that i will give you the best UI/UX for your Website </p>
+                <a href="">learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------projects -->
+
+<div id="projects">
+    <div class="container" >
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./img/wanderlustimg.png" alt="">
+                <div class="layer">
+                    <h3>Wander Lust</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim blanditiis dignissimos nam.</p> -->
+                    <a href="https://wanderlustbyvikasdewandev.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work"  >
+                <img src="./img/simonsaygame.png" alt="">
+                <div class="layer">
+                    <h3>Simple Mind Game</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim blanditiis dignissimos nam.</p> -->
+                    <a href="https://simansaysbyvikasdewan.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/project3.png" alt="">
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim blanditiis dignissimos nam.</p> -->
+                    <a href="https://vikasdewan.github.io/Amazon_Clone/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/project2.png" alt="">
+                <div class="layer">
+                    <h3>Food Delivery website</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim blanditiis dignissimos nam.</p> -->
+                    <a href="https://vikasdewan.github.io/food_delivery_Website/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/project1.png" alt="">
+                <div class="layer">
+                    <h3>Gym Website</h3>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim blanditiis dignissimos nam.</p> -->
+                    <a href="https://vikasdewan.github.io/Gym_Website/#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            
+            
+           
+        </div>
+    </div>
+</div>
+
+<!-- ------contect me---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> dewanganvikas192@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-8839179970</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/its_vikas03/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vikasdewangan001/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/VikasDewan88668" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                   <a href="https://github.com/vikasdewan"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a 
+                href="./img/NewResume.pdf" 
+                download="ResumeVikasDewangan" 
+                class="btn btn2">Download CVV</a>
+            </div>
+            <div class="contact-right">
+                <form action="/send_email" method="post" >
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    <textarea name="msg" id="msg" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer> 
+ 
+    
+       
+ 
+   <div class="social-icons">
+        <a href="https://www.instagram.com/its_vikas03/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/vikasdewangan001/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/VikasDewan88668" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+       <a href="https://github.com/vikasdewan"><i class="fa-brands fa-github"></i></a>
+ 
+    </div>
+      
+        <div class="copyright"><p>&copy; Vikas Dewangan Private Limited</p></div>
+            <div class="f-info-links">
+                <a href="" class="footer-links">Privacy</a>
+                <a href="" class="footer-links">terms</a>
+            
+        </div>
+   
+</footer>
+    <script>
+        let tabLinks = document.getElementsByClassName("tab-links");
+        let tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName){
+          for(tablink of tabLinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabContents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        
+        let sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-220px";
+        }
+        
+    </script>
+
+     <!-- bootstrap js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

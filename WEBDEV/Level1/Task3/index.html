@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/11a55a6c46.js" crossorigin="anonymous"></script> 
+
+</head>
+<body >
+    <div class="container">
+    <div>
+        <h1 style="padding-left: 15px;">Basic Calculator</h1>
+    </div>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="display" disabled />
+        </div>
+        
+          <div class="buttons">
+            
+             <button onclick="appendNumber('7')">7</button>
+              <button onclick="appendNumber('8')">8</button>
+             <button onclick="appendNumber('9')">9</button>
+             <button onclick="chooseOperation('÷')">÷</button>
+            <button onclick="appendNumber('4')">4</button>
+             <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+             <button onclick="chooseOperation('×')">×</button>
+            <button onclick="appendNumber('1')">1</button>
+             <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="chooseOperation('-')">-</button>
+             <button onclick="appendNumber('0')">0</button>
+            <button onclick="clearDisplay()">C</button>
+           <button onclick="computeResult()">=</button>
+            <button onclick="chooseOperation('+')">+</button>
+        </div>
+    </div>
+
+
+    <div class="footer-section">
+    <footer> 
+        <div class="social-icons">
+             <a href="https://www.instagram.com/its_vikas03/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+             <a href="https://www.linkedin.com/in/vikasdewangan001/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://twitter.com/VikasDewan88668" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/vikasdewan"><i class="fa-brands fa-github"></i></a>
+      
+         </div>
+           
+             <div class="copyright"><p>&copy; Vikas Dewangan Private Limited</p></div>
+                 <div class="f-info-links">
+                     <a href="" class="footer-links">Privacy</a>
+                     <a href="" class="footer-links">terms</a>
+                 
+             </div>
+        
+            </footer>
+        </div>
+        </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
